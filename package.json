@@ -1,0 +1,31 @@
+{
+  "name": "desktop-inbox",
+  "productName": "Desktop Inbox",
+  "description": "Desktop wrapper for Inbox by Gmail",
+  "version": "0.0.1",
+  "author": {
+    "name": "José Miguel Sarasola",
+    "email": "jmsardev@gmail.com",
+    "url": "https://github.com/jmsardev"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "electron": "electron .",
+    "pack": "build --dir",
+    "dist": "build",
+    "postdist": "asar pack dist/linux-unpacked/resources pack dist/linux-unpacked/resources/app.asar --unpack './node_modules/node-notifier/vendor/**'",
+    "clean": "rm -rf dist",
+    "test": "standard"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "auto-launch": "^5.0.1",
+    "node-notifier": "^5.1.2"
+  },
+  "devDependencies": {
+    "asar": "^0.13.0",
+    "electron": "^1.6.6",
+    "standard": "^10.0.2"
+  }
+}

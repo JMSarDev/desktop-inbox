@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Inbox by Gmail</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="resources/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <webview src="https://inbox.google.com" preload="resources/scripts/injecter.js"></webview>
+    </div>
+</body>
+<script>
+    require(`${__dirname}/resources/scripts/renderer.js`)
+</script>
+
+</html>
