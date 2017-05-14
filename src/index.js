@@ -31,7 +31,7 @@ const createWindow = () => {
   })
 
     //  Activate in production
-    // mainWindow.setMenuBarVisibility(false)
+  mainWindow.setMenuBarVisibility(false)
 
   mainWindow.loadURL(`file://${__dirname}/index.html`)
 
