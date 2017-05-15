@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "appId": "com.jmsardev.desktop-inbox",
   "mac": {
-      "category": "Netowrk"
+      "category": "Network"
   },
   "author": {
     "name": "José Miguel Sarasola",
