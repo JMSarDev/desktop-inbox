@@ -13,6 +13,7 @@
     "electron": "electron .",
     "pack": "build --dir",
     "dist": "build",
+    "release": "build",
     "postdistlinux": "asar pack dist/linux-unpacked/resources pack dist/linux-unpacked/resources/app.asar --unpack './node_modules/node-notifier/vendor/**'",
     "postdistwindows": "asar pack dist/win-unpacked/resources pack dist/win-unpacked/resources/app.asar --unpack './node_modules/node-notifier/vendor/**'",
     "clean": "rm -rf dist",
