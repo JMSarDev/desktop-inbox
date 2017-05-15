@@ -3,6 +3,10 @@
   "productName": "Desktop Inbox",
   "description": "Desktop wrapper for Inbox by Gmail",
   "version": "0.0.1",
+  "appId": "com.jmsardev.desktop-inbox",
+  "mac": {
+      "category": "Netowrk"
+  },
   "author": {
     "name": "José Miguel Sarasola",
     "email": "jmsardev@gmail.com",
