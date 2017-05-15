@@ -1,4 +1,5 @@
 [![Travis Build](https://api.travis-ci.org/JMSarDev/desktop-inbox.svg?branch=master)](https://travis-ci.org)
+[![AppVeyor](https://ci.appveyor.com/api/projects/status/github/jmsardev/desktop-inbox?branch=master&svg=true)](https://appveyor.com)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
