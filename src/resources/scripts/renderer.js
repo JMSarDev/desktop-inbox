@@ -5,8 +5,8 @@ var webview = document.getElementById('mail-view')
 
 // When everything is ready, trigger the events without problems
 webview.addEventListener('dom-ready', function () {
-    // Show devTools if you want
-  webview.openDevTools()
+  // Show devTools if you want
+  //webview.openDevTools()
   console.log('DOM-Ready, triggering events !')
 })
 
