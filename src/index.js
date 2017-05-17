@@ -30,7 +30,7 @@ const createWindow = () => {
     icon: path.join(__dirname, '/resources/images/icon.png')
   })
 
-    //  Activate in production
+  //  Activate in production
   mainWindow.setMenuBarVisibility(false)
 
   mainWindow.loadURL(`file://${__dirname}/index.html`)
