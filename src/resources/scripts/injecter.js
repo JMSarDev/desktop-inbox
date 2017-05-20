@@ -1,11 +1,11 @@
 // inyector.js// Get the ipcRenderer of electron
 const { ipcRenderer } = require('electron')
 
-var getNewInboxElement = function (mailNode) {
+const getNewInboxElement = function (mailNode) {
   // var mailNode = document.getElementsByClassName("scroll-list-item top-level-item")[0];
-  var sender = mailNode.getElementsByClassName('ss')[0].firstChild.nodeValue
-  var title = mailNode.getElementsByClassName('bg qG')[0].firstChild.firstChild.nodeValue
-  var image = mailNode.getElementsByClassName('wWSE6 gi ej')[0].getAttribute('src')
+  const sender = mailNode.getElementsByClassName('ss')[0].firstChild.nodeValue
+  const title = mailNode.getElementsByClassName('bg qG')[0].firstChild.firstChild.nodeValue
+  const image = mailNode.getElementsByClassName('wWSE6 gi ej')[0].getAttribute('src')
 
   return {
     sender: sender,

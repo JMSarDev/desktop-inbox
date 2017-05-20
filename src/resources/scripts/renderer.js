@@ -1,7 +1,7 @@
 // https://github.com/mikaelbr/node-notifier
 const notifier = require('node-notifier')
 
-var webview = document.getElementById('mail-view')
+const webview = document.getElementById('mail-view')
 
 // When everything is ready, trigger the events without problems
 webview.addEventListener('dom-ready', function () {

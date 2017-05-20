@@ -16,7 +16,7 @@ let mainWindow
 // To know when to close it or just move to the tray bar
 let realClose = false
 
-let InboxDesktopAutoLauncher = new AutoLaunch({
+const InboxDesktopAutoLauncher = new AutoLaunch({
   name: 'Desktop Inbox',
   isHidden: true
 })
@@ -35,7 +35,7 @@ const createWindow = () => {
 
   mainWindow.loadURL(`file://${__dirname}/index.html`)
 
-  let tray = new Tray(path.join(__dirname, '/resources/images/icon.png'))
+  const tray = new Tray(path.join(__dirname, '/resources/images/icon.png'))
   tray.on('click', () => {
     mainWindow.isVisible() ? mainWindow.hide() : mainWindow.show()
   })
