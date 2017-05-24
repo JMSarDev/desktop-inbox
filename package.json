@@ -2,7 +2,7 @@
   "name": "desktop-inbox",
   "productName": "Desktop Inbox",
   "description": "Desktop wrapper for Inbox by Gmail",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "appId": "com.jmsardev.desktop-inbox",
   "mac": {
     "category": "Network"
