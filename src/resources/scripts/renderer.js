@@ -7,7 +7,6 @@ const webview = document.getElementById('mail-view')
 // When everything is ready, trigger the events without problems
 
 webview.addEventListener('new-window', (e) => {
-  console.log('Pincho')
   const protocol = require('url').parse(e.url).protocol
   if (protocol === 'http:' || protocol === 'https:') {
     shell.openExternal(e.url)
